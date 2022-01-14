@@ -5,8 +5,7 @@ browsers:
     - firefox
 
 browsers_aur:
-    - google-chrome
-    - chromedriver
+    - ungoogled-chromium
 
 browser_tor:
     - tor
@@ -14,31 +13,12 @@ browser_tor:
     - torbrowser-launcher
 
 cloud_tools_aur:
-    - google-cloud-sdk
 
 developer_stack:
     - jq
     - docker
     - docker-compose
     - hub
-    - nodejs
-    - npm
-    - jre8-openjdk-headless
-    - jre8-openjdk
-    - jdk8-openjdk
-    - jre11-openjdk-headless
-    - jre11-openjdk
-    - jdk11-openjdk
-    - maven
-    - clojure
-    - scala
-    - sbt
-    - go
-    - go-tools
-    - leiningen
-    - minikube
-    - kubectl
-    - kubectx
     - yarn
     - ansible
     - ansible-lint
@@ -53,16 +33,14 @@ editors:
     - vim
     - atom
     - emacs
+    - nano
 
 editors_aur:
-    - jetbrains-toolbox
-    - intellij-idea-ultimate-edition
-    - goland
     - visual-studio-code-bin
-    - xmind
 
 media:
     - peek
+    - mpv
 
 media_aur:
     - spotify
@@ -121,9 +99,9 @@ pip_packages:
 
 comms:
     - signal-desktop
+    - discord
 
 comms_aur:
-    - slack-desktop
 
 security_tools:
     - clamav
@@ -135,11 +113,3 @@ security_tools:
 virtualization:
     - vagrant
     - virtualbox
-
-tesseract:
-    - tesseract
-    - tesseract-data-eng
-
-gnome:
-    - manjaro-gnome-assets
-    - manjaro-settings-manager
