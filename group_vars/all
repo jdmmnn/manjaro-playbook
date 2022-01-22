@@ -8,9 +8,6 @@ browsers_aur:
     - ungoogled-chromium
 
 browser_tor:
-    - tor
-    - nyx
-    - torbrowser-launcher
 
 cloud_tools_aur:
 
